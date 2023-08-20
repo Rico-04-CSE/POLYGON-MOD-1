@@ -11,7 +11,7 @@ async function main() {
 
     // Log the total number of ERC721A tokens owned by the specified wallet address
     // console.log("You now have a total number of: " + await token.balanceOf(walletAddress) + "  tokens");
-    console.log("You now have a total number of: 05 tokens");
+    console.log("You now have a total number of: " + await token.balanceOf(walletAddress) + " tokens");
   }
   
  // Call the main function and handle any errors
