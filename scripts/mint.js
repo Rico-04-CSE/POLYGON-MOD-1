@@ -19,7 +19,7 @@ async function main() {
   const signer = new ethers.Wallet(privateKey, provider);
 
   // The address of the deployed contract that we want to interact with
-  const contractAddress = "0x56F3C80baCf0dCf075802931fdD6a0d2A7fcc112";
+  const contractAddress = "0xe32989B1214e8551375C2BF48d2B79Bf45819a0e";
 
   // Get the contract factory for the Clover contract and attach it to the signer
   const OneNFT = await ethers.getContractFactory("Clover", signer);
